@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "node scripts/probe.js",
-    "compile": "hardhat compile"
+    "postinstall": "node scripts/probe.js && node scripts/fail.js"
   },
   "devDependencies": {
     "hardhat": "^2.22.0"
