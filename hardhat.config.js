@@ -1,0 +1,2 @@
+require("hardhat");
+module.exports = { solidity: "0.8.24" };
